@@ -173,7 +173,6 @@ def plot_confusion_matrices(cm1, cm2, class_names, title1, title2, normalize=Tru
         plt.setp(ax.get_xticklabels(), rotation=30, ha='right')
 
     plt.subplots_adjust(wspace=1.2)
-    plt.savefig('/content/confusion_matrices_dissertation.png', dpi=300, bbox_inches='tight', facecolor='white')
     plt.show()
 
 
