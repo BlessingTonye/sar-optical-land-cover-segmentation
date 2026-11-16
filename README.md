@@ -1,4 +1,4 @@
-# SAR and Optical Data Fusion for Land Cover Segmentation
+# Multi-Sensor Fusion for Land-Cover Semantic Segmentation
 
 This repository contains the source code for multi-sensor fusion and land-cover semantic segmentation using Sentinel-1 SAR and Sentinel-2 optical imagery.
 
