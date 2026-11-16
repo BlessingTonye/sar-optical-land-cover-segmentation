@@ -8,9 +8,8 @@ import segmentation_models_pytorch as smp
 
 def build_unet(encoder_name, in_channels, n_classes):
     """
-    Builds a U-Net model with the specified encoder. Encoder weights
-    are not pretrained, following the study's from scratch training
-    approach.
+    Builds a U-Net model with the specified encoder. Encoder weights 
+    are not pretrained; the model is initialised with random weights.
 
     Args:
         encoder_name (str): Name of the encoder backbone.
